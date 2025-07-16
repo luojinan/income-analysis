@@ -1,0 +1,15 @@
+---
+
+# TypeScript & React Style Guide
+
+- Always use explicit types where possible.
+- Prefer function components and hooks for React logic.
+- Use ES6+ features (const/let, arrow functions, destructuring).
+- Keep components small and focused; split logic into custom hooks if reusable.
+- Use PascalCase for component names and camelCase for variables/functions.
+- Avoid using 'any' type unless absolutely necessary.
+- Prefer interfaces for public API shapes, types for unions/utility types.
+- Always include a return type for exported functions/components.
+- Use CSS modules or scoped styles for component-specific styles if project grows.
+
+---
