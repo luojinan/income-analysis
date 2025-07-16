@@ -1,5 +1,6 @@
 // 收入相关工具函数
-import type { Income } from '../types/supabase';
+import type { Tables } from '../types/supabase';
+type Income = Tables<'income'>;
 
 export function formatTime(isoTime: string): string {
   const date = new Date(isoTime);
